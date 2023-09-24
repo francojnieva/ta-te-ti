@@ -3,3 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.game-container {
+    display: grid;
+    justify-content: center;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 6rem);
+    grid-template-rows: repeat(3, 6rem); 
+    gap: .3rem;
+}
+
+.game-cell {
+    border: 1px solid #797979; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
