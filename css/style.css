@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #1A1A1A;
+}
+
+header h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+}
+
 .game-container {
     display: grid;
     justify-content: center;
@@ -17,10 +26,19 @@
 }
 
 .game-cell {
-    border: 1px solid #797979; 
+    color: #fff;
+    border: 1px solid #6A00FF; 
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+}
+
+.game-cell:active {
+    border: .1rem solid #ec27ec;
+}
+
+#btn-reset {
+    background-color: #853685;
 }
 
